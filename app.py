@@ -6,9 +6,9 @@ app =Flask(_name_)
 def main():
   return “Welcome!”
 
-@app.route(‘/how are you’)
-def hello():
-  return ‘I am good, how about you?’
+#@app.route(‘/how are you’)
+#def hello():
+  #return ‘I am good, how about you?’
 
-If _name_ == “_main_”:
- app.run(host=“0.0.0.0”, port=8080)
+#If _name_ == “_main_”:
+# app.run(host=“0.0.0.0”, port=8080)
